@@ -11,8 +11,8 @@ function CardCategorias({categoria }: CardCategoriasProps) {
             {/* <header className='py-2 px-6 bg-amber-700 text-white font-bold text-2xl'>
                 Categoria
             </header> */}
-            <p className='py-2 px-2 bg-slate-200 font-bold text-3xl text-amber-950 '>{categoria.nome}</p>            
-            <p className='p-2 px-2 text-3xl bg-slate-200 h-full'>{categoria.descricao}</p>
+            <p className='py-2 px-2 bg-amber-100 font-bold text-3xl text-amber-950 '>{categoria.nome}</p>            
+        <p className='p-2 px-2 text-3xl  bg-amber-100 h-full'>{categoria.descricao}</p>
             <div className="flex">
             <Link to={`/editarcategoria/${categoria.id}`}
                 // className='w-full text-slate-100 bg-indigo-400 hover:bg-indigo-800 flex items-center justify-center py-2'> 
