@@ -59,13 +59,13 @@ function DeletarTema() {
                 Você tem certeza de que deseja apagar a categoria a seguir?</p>
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
                 <header 
-                    className='py-2 px-6 bg-amber-700 text-white font-bold text-2xl'>
+                    className='py-2 px-40 bg-fuchsia-800 text-white font-bold text-2xl'>
                     Categoria
                 </header>
-                <p className='p-8 text-3xl bg-amber-100 h-full'>{categoria.descricao}</p>
+                <p className='p-8 text-3xl bg-fuchsia-200 h-full'>{categoria.descricao}</p>
                 <div className="flex">
                     <button 
-                        className='text-white bg-amber-950 hover:bg-amber-900 w-full flex items-center justify-center'
+                        className='text-white  bg-purple-950  hover:bg-gray-800 w-full flex items-center justify-center'
                         onClick={retornar}>
                         Não
                     </button>
