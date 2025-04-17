@@ -77,7 +77,7 @@ function FormCategoria() {
     }
 
     return (
-        <div className="container flex flex-col items-center justify-center mx-auto">
+        <div className="container flex  text-fuchsia-950 flex-col items-center justify-center mx-auto">
             <h1 className="text-4xl font-bold text-center my-8">
                 Cadastrar Categoria
             </h1>
